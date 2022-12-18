@@ -1,7 +1,7 @@
 /* 7cfc00 */
 body{
     font-family: Arial, Helvetica, sans-serif;
-    height: 100wh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -12,6 +12,16 @@ a{
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+button,.butAnim{
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+button:hover{
+    transform: scale(1.1) perspective(1px)
+;
 }
 
 ul{
@@ -128,6 +138,18 @@ img{
     height: 150px;
     border: 4px solid #3882f6;
     border-radius: 25px;
+    background: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tsq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    height: 150px;
 }
 
 .table01Text,.table02Text,.table03Text,.table04Text{
