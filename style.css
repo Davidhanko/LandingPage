@@ -1,0 +1,228 @@
+/* 7cfc00 */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100wh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul{
+    list-style-type: none;
+}
+
+img{
+    border-radius: 50px;
+}
+
+/* HLAVICKA */
+
+.header{
+    width: 100%;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.headLogo{
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.headLinks{
+    display: flex;
+    gap: 24px;
+}
+
+.tlacitko{
+    border: none;
+    margin-top: 24px;
+    background-color: #3882f6;
+    border-radius: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+/* AWESOME */
+
+.awesome{
+    padding-top: 175px;
+    padding-bottom: 175px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #1f2937;
+}
+
+.awesomeText{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: flex-start;
+}
+
+.aweTextHero{
+    color: #f9faf8;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.podtitulok{
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+/* INFORMATION */
+
+.information{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+    margin-top: 160px;
+}
+
+.infoText{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.table{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 150px;
+    padding-bottom: 300px;
+}
+
+.table01,.table02,.table03,.table04{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width:150px;
+}
+
+.table01square,.table02square,.table03square,.table04square{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 25px;
+}
+
+.table01Text,.table02Text,.table03Text,.table04Text{
+    color: gray;
+}
+
+/* QUOTE */
+
+.quote{
+    padding-top: 300px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 260px;
+    
+}
+
+.quoteFlex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 700px;
+}
+
+.quoteText{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quoter{
+    display: flex;
+    justify-content: flex-end;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* BUTTON */
+
+.FinButton{
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.button{
+    border: 2px solid #3882f6;
+    background-color: #3882f6;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ButtonText{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.ButBigText{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ButtonButton{
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+.Footer{
+    background-color: #1f2937;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+.footerText{
+    color: white;
+    display: flex;
+}
