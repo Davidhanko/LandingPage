@@ -41,7 +41,6 @@ img{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #1f2937;
 }
 
 .headLogo{
@@ -116,7 +115,7 @@ img{
     font-weight: bolder;
 }
 
-.table{
+.InfoDIV{
     padding-top: 100px;
     display: flex;
     justify-content: center;
@@ -125,7 +124,7 @@ img{
     padding-bottom: 300px;
 }
 
-.table01,.table02,.table03,.table04{
+.InfoTable{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -133,7 +132,7 @@ img{
     width:150px;
 }
 
-.table01square,.table02square,.table03square,.table04square{
+.infoSquare{
     width: 150px;
     height: 150px;
     border: 4px solid #3882f6;
@@ -152,7 +151,7 @@ img{
     height: 150px;
 }
 
-.table01Text,.table02Text,.table03Text,.table04Text{
+.infoDIVText{
     color: gray;
 }
 
